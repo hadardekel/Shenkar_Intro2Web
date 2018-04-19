@@ -1,0 +1,197 @@
+* {
+	margin: 0; 
+	padding: 0;
+	font-family: Arial, sans serif;
+	/*border: 2px solid red; */
+}
+
+/* GENERAL */
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 88px;
+}
+
+h2 {
+	color: #2d3950;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+h4 {
+	font-weight: normal;
+	font-size: 18px;
+}
+	
+ul {
+  list-style-type: none;
+}
+
+header, footer, #info {
+	background: #f6f9f9;
+}
+
+/* HEADER */
+header{
+	width: 1600px;
+	height: 100px;
+	display: block;
+}
+
+
+#logo {
+	background: url('../images/logo.png') no-repeat left center;
+	height: 40px;
+	width: 197px;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-right: 53px;
+	padding-top: 22px;
+	padding-left: 50px;
+	text-align: left;
+	color: #2d3950;
+	font-size: 22px;
+	font-family: Arial, serif;
+	display: inline-block;
+}
+
+#mainNav {
+	margin-top: 20px;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	display: inline-block;
+}
+
+#mainNav a {
+	color: #264951;	
+	font-family: Tahoma, sans serif;
+	padding-left: 17px;
+	padding-right: 5px;
+}
+
+#mainNav a:hover {
+	color: #ababab;	
+}
+
+/* COVER */
+.cover {
+	background: url('../images/cover_new.png') no-repeat center center;
+	height: 800px;
+	width: 1600px;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+}
+
+.cover h1 {
+	padding-top: 242px;
+}
+
+.cover h4 {
+	padding-top: 40px;
+	padding-bottom: 88px;
+}
+
+.underline {
+  border-bottom: 2px solid #15a4fa;
+  display: inline-block;
+  line-height: 0.85;
+}
+
+a.button {
+	color: #ffffff;
+	border: 1px solid #15a3f9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-size: 15px;
+}
+
+a.button:hover {
+	background: #15a3f9;
+}
+
+img.goto {
+	margin-top: 200px;
+}
+
+/* INFO */
+#info {
+	text-align: center;
+	height: 340px;
+	width: 1600px;
+}
+
+
+#info h2 {
+	padding-top: 82px;
+	padding-bottom: 37px;
+}
+
+#info p {
+	color: #999999;
+	font-size: 15px;
+	padding-bottom: 13px;
+}
+
+/* SKILLS */ 
+.skills {
+	color: #2d3950;
+	text-align: left;
+	width: 1600px;
+}
+
+.skills h2 {
+	padding-top: 78px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+
+.skills  li{
+	margin-left: 355px;
+	margin-bottom: 21px;
+	font-size: 18px;
+	height: 100px; 
+}
+
+.skills  li img{
+  display: block;
+  float: left;
+}
+
+.skills  h4{
+	margin-top: 40px;
+	margin-left: 33px; 
+	display: inline-block;	
+}
+
+/* FOOTER */
+footer {
+	height: 90px;
+	width: 1350px;
+	padding-left: 250px;
+	display: block;
+}
+
+footer a img{
+  display: block;
+  float: left;
+  margin-top: 25px;
+  padding-right: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+footer h6 {
+	color: #999999;
+	font-size: 12px;
+	margin-top: 40px;
+	margin-left: 6px;
+	display: inline-block;	
+}
