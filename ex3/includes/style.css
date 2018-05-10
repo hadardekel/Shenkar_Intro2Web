@@ -43,6 +43,7 @@ article {
     margin-top: 47px;
 }
 #layout1 #logo {
+    margin-top: 5px;
     margin-left: 104px;
 }
 #layout1 aside{
@@ -117,9 +118,10 @@ article {
     background-color: #333333;
 }
 #layout2 #mainNav li{
-    width: 243px;
+    width: 237px;
     height: 59px;
     display: block;
+    padding-left: 6px;
 }
 #layout2 #mainNav a{
     color: #ffffff;
@@ -144,7 +146,7 @@ article {
 }
 #layout2 article {
     width: 211px;
-    position: relative;
+    /*position: relative;*/
 }
 #layout2 main > article:nth-child(1) {
     height: 223px;
